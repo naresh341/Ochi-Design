@@ -4,6 +4,7 @@
 
 *{
     cursor: pointer;
+    caret-color: transparent;
     }
     
     ::selection{
