@@ -37,13 +37,13 @@ function Cards() {
         </div>
         <div className="w-full hr border-b-[1px] border-[#99AD53] mt-5 "></div>
 
-        <div className="card-container w-full flex gap-10 mt-5 p-10 ">
+        <div className="card-container w-full flex flex-col lg:flex-row  gap-10 mt-5 p-10 ">
           <motion.div
             onHoverStart={() => handleHover(0)}
             onHoverEnd={() => handleHoverEnd(0)}
-            className="cards w-1/2 h-[75vh]  relative"
+            className="cards lg:w-1/2 lg:h-[75vh]  relative"
           >
-            <h1 className="  absolute flex overflow-hidden text-7xl   font-bold text-[#CDEA68] z-[9] leading-none tracking-tight left-full -translate-x-1/2 -translate-y-1/2 top-1/2 ">
+            <h1 className="  absolute flex overflow-hidden text-7xl   font-bold text-[#CDEA68] z-[9] leading-none tracking-tight lg:left-full  lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 ">
               {"FYDE".split("").map((item, index) => (
                 <motion.span
                   key={index}
@@ -67,9 +67,9 @@ function Cards() {
           <motion.div
             onHoverStart={() => handleHover(1)}
             onHoverEnd={() => handleHoverEnd(1)}
-            className="cards w-1/2 h-[75vh] relative  "
+            className="cards lg:w-1/2 lg:h-[75vh] relative  "
           >
-            <h1 className=" absolute text-7xl flex overflow-hidden z-[9] font-bold text-[#CDEA68] leading-none tracking-tight  right-full translate-x-1/2 -translate-y-1/2 top-1/2 ">
+            <h1 className=" absolute text-7xl flex overflow-hidden z-[9] font-bold text-[#CDEA68] leading-none tracking-tight  lg:right-full lg:translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 ">
               {"VISE".split("").map((item, index) => (
                 <motion.span
                   key={index}
@@ -91,10 +91,10 @@ function Cards() {
             </div>
           </motion.div>
         </div>
-        <div className="flex p-10 gap-10">
+        <div className="flex flex-col lg:flex-row p-10 gap-10">
           <motion.div onHoverStart={() => handleHover(2)}
-            onHoverEnd={() => handleHoverEnd(2)}  className="cards w-1/2 h-[75vh] relative  ">
-            <h1 className=" absolute flex overflow-hidden text-7xl z-[9] font-bold  text-[#CDEA68] leading-none tracking-tight  left-full -translate-x-1/2 -translate-y-1/2 top-1/2 ">
+            onHoverEnd={() => handleHoverEnd(2)}  className="cards lg:w-1/2 lg:h-[75vh] relative  ">
+            <h1 className=" absolute flex overflow-hidden text-7xl z-[9] font-bold  text-[#CDEA68] leading-none tracking-tight  lg:left-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 ">
               {"TRAWA".split("").map((item, index) => (
                 <motion.span
                   key={index}
@@ -118,9 +118,9 @@ function Cards() {
           <motion.div
             onHoverStart={() => handleHover(3)}
             onHoverEnd={() => handleHoverEnd(3)}
-            className="cards w-1/2 h-[75vh] relative  "
+            className="cards lg:w-1/2 lg:h-[75vh] relative  "
           >
-            <h1 className=" absolute flex overflow-hidden text-7xl z-[9] font-bold  whitespace-nowrap text-[#CDEA68] leading-none tracking-tighter  right-full   translate-x-1/2 -translate-y-1/2 top-1/2 ">
+            <h1 className=" absolute flex overflow-hidden text-7xl z-[9] font-bold  whitespace-nowrap text-[#CDEA68] leading-none tracking-tighter  lg:right-full   lg:translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 ">
               {"PREMIUM BLEND".split("").map((item, index) => (
                 <motion.span
                 key={index}

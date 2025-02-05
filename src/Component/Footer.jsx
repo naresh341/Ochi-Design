@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".08" className='w-full flex gap-10 h-screen font-["Founders_Grotesk_X_Condensed"]   '>
-      <div className="text-[8rem] h-screen flex flex-col justify-between w-1/2 uppercase  p-20 font-bold leading-none tracking-tight">
+    <div data-scroll data-scroll-section data-scroll-speed=".08" className='w-full z-10 relative flex gap-10 h-screen font-["Founders_Grotesk_X_Condensed"] overflow-auto  '>
+      <div className="lg:text-[8rem] text-[3rem]   h-screen flex flex-col justify-between w-1/2 uppercase  lg:p-20 p-5 font-bold leading-none tracking-tight">
         <div>
           <h1>eye-</h1>
           <h1>opening</h1>
@@ -38,8 +38,8 @@ function Footer() {
           </svg>
       </div>
         
-        <div className="w-1/2 p-20 ">
-            <h1 className="text-[8rem] font-semibold uppercase leading-none tracking-tight">presentations</h1>
+        <div className="w-1/2 lg:p-20 p-5 ">
+            <h1 className="lg:text-[8rem] text-[2rem] font-semibold uppercase leading-none tracking-tight">presentations</h1>
 
         <div className="text-[2rem]  leading-none  capitalize mt-10">
                 <h1 className="mb-5">S:</h1>
